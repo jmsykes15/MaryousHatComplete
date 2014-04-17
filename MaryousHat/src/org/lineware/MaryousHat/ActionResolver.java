@@ -1,0 +1,13 @@
+package org.lineware.MaryousHat;
+
+
+public interface ActionResolver {
+	  public boolean getSignedInGPGS();
+	  public void loginGPGS();
+	  public void submitScoreGPGS(int score);
+	  public void unlockAchievementGPGS(int score);
+	  public void getLeaderboardGPGS();
+	  public void getAchievementsGPGS();
+	  public void onStartGSPS();
+	  public void onStopGSPS();
+}

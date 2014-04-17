@@ -1,0 +1,28 @@
+package org.lineware.MaryousHat;
+
+import android.os.Bundle;
+
+import com.badlogic.gdx.backends.android.AndroidApplication;
+import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+
+public class MainActivity extends AndroidApplication {
+	private AdView adView;
+	
+	private static final String adUnitId = "ca-app-pub-4144520465652247/1197354314";
+	
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        
+        adView = new AdView(this);
+        adView.setAdSize(AdSize.BANNER);
+        adView.setAdUnitId(adUnitId);
+        
+        AndroidApplicationConfiguration cfg = new AndroidApplicationConfiguration();
+        cfg.useGL20 = false;
+        
+        initialize(new MHGame(), cfg);
+    }
+}

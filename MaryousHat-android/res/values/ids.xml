@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_id">112562038222</string>
+    <string name="achievement_pup">CgkIzsvhqaMDEAIQAQ</string>
+    <string name="achievement_dog">CgkIzsvhqaMDEAIQAg</string>
+    <string name="achievement_human">CgkIzsvhqaMDEAIQAw</string>
+    <string name="achievement_squire">CgkIzsvhqaMDEAIQBA</string>
+    <string name="achievement_knight">CgkIzsvhqaMDEAIQBQ</string>
+    <string name="leaderboard_maryous_hat_leader_board">CgkIzsvhqaMDEAIQBg</string>
+
+</resources>

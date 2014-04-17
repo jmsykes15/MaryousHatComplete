@@ -1,0 +1,5 @@
+package org.lineware.MaryousHat;
+
+public interface ActionResolver {
+
+}
